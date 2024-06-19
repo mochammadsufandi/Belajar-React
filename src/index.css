@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Board {
+  padding: 3rem 3rem;
+}
+
+.game-btn {
+  width: 4rem;
+  height: 4rem;
+  vertical-align: top;
+  margin: 0.3rem;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.game-status {
+  padding: 1rem 1rem;
+  font-size: larger;
+  font-weight: 900;
+}
