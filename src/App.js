@@ -1,6 +1,7 @@
 import './App.css';
 import {useState} from 'react';
 import {logicBoard} from './logic';
+import Page from './Router/firstPage';
 
 
 function CreateSquare({index,array,setArray}) {
@@ -92,6 +93,7 @@ function App() {
       <div>
         <Board></Board>
       </div>
+      <Page/>
     </div>
     
   );
